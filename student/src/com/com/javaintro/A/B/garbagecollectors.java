@@ -2,16 +2,12 @@ package com.com.javaintro.A.B;
 
 public class garbagecollectors{
 	
-	
-
     static class A {
         B b;
     }
-
     static class B {
         A a;
     }
-
     public static void main(String[] args) {
 
         // 1. Nullify
