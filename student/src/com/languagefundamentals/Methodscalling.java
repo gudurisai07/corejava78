@@ -1,5 +1,5 @@
 
-// 09-09-26   task  methods calling  in  one  one method
+// 09-09-26   task  methods calling  in  one  one methods
 
 package com.languagefundamentals;
 
@@ -11,7 +11,6 @@ static {
 		m1.I2();
 	
 	}
-
 	static void s1(){
 	
 		System.out.println("static method  1 calling");
@@ -26,7 +25,6 @@ static {
 		s2();
 		System.out.println("instance method 1 calling ");
 	}
-	
 	void I2() {
 		I1();
 		System.out.println("instance method 2 calling ");
