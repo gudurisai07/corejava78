@@ -12,9 +12,12 @@ public class evenodd {
 
             int x = i % 10;
 
-            if (x % 2 == 0) {
+            if (x % 2 == 0) 
+            {
                 evencount++;
-            } else {
+            }
+            else 
+            {
                 oddcount++;
             }
 
