@@ -2,6 +2,7 @@ package com.conditionalstatements;
 
 import java.util.Scanner;
 
+//Online Shopping Billing System
 public class Conditional8 {
 
 	public static void main(String[] args) {
@@ -12,8 +13,7 @@ public class Conditional8 {
 		String product;
 
 		do {
-			System.out
-					.println("Enter Category: Press no :1.Electronics/2.Clothing/3.Footwear/");
+			System.out.println("Enter Category: Press no :1.Electronics/2.Clothing/3.Footwear/");
 			String CTG = sc.nextLine();
 
 			switch (CTG) {
@@ -244,109 +244,107 @@ public class Conditional8 {
 				System.out.println("Clothing Total Price is: " + Clothing_total_price);
 				Total_price += Clothing_total_price;
 			}
-			
-			
+
 			case "3" -> {
-			    System.out.println("1. Shoes");
-			    System.out.println("2. Sneakers");
-			    System.out.println("3. Sandals");
-			    System.out.println("4. Slippers");
-			    System.out.println("5. Flip Flops");
-			    System.out.println("6. Boots");
-			    System.out.println("7. Sports Shoes");
-			    System.out.println("8. Formal Shoes");
-			    System.out.println("9. Loafers");
-			    System.out.println("10. Heels");
-			    System.out.println("11. Flats");
-			    System.out.println("12. Running Shoes");
-			    System.out.println("13. Walking Shoes");
-			    System.out.println("14. Crocs");
-			    System.out.println("15. School Shoes");
+				System.out.println("1. Shoes");
+				System.out.println("2. Sneakers");
+				System.out.println("3. Sandals");
+				System.out.println("4. Slippers");
+				System.out.println("5. Flip Flops");
+				System.out.println("6. Boots");
+				System.out.println("7. Sports Shoes");
+				System.out.println("8. Formal Shoes");
+				System.out.println("9. Loafers");
+				System.out.println("10. Heels");
+				System.out.println("11. Flats");
+				System.out.println("12. Running Shoes");
+				System.out.println("13. Walking Shoes");
+				System.out.println("14. Crocs");
+				System.out.println("15. School Shoes");
 
-			    String nvyn = "";
-			    double Footwear_total_price = 0;
+				String nvyn = "";
+				double Footwear_total_price = 0;
 
-			    do {
-			        System.out.println("Enter the product name:");
-			        String Footwear_product = sc.next();
+				do {
+					System.out.println("Enter the product name:");
+					String Footwear_product = sc.next();
 
-			        switch (Footwear_product) {
-			            case "Shoes" -> {
-			                System.out.println("Shoes price is: 950/- Rs");
-			                Footwear_total_price += 950;
-			            }
-			            case "Sneakers" -> {
-			                System.out.println("Sneakers price is: 1500/- Rs");
-			                Footwear_total_price += 1500;
-			            }
-			            case "Sandals" -> {
-			                System.out.println("Sandals price is: 600/- Rs");
-			                Footwear_total_price += 600;
-			            }
-			            case "Slippers" -> {
-			                System.out.println("Slippers price is: 250/- Rs");
-			                Footwear_total_price += 250;
-			            }
-			            case "Flip flops" -> {
-			                System.out.println("Flip Flops price is: 200/- Rs");
-			                Footwear_total_price += 200;
-			            }
-			            case "Boots" -> {
-			                System.out.println("Boots price is: 2200/- Rs");
-			                Footwear_total_price += 2200;
-			            }
-			            case "Sports shoes" -> {
-			                System.out.println("Sports Shoes price is: 1800/- Rs");
-			                Footwear_total_price += 1800;
-			            }
-			            case "Formal shoes" -> {
-			                System.out.println("Formal Shoes price is: 1200/- Rs");
-			                Footwear_total_price += 1200;
-			            }
-			            case "Loafers" -> {
-			                System.out.println("Loafers price is: 1300/- Rs");
-			                Footwear_total_price += 1300;
-			            }
-			            case "Heels" -> {
-			                System.out.println("Heels price is: 1100/- Rs");
-			                Footwear_total_price += 1100;
-			            }
-			            case "Flats" -> {
-			                System.out.println("Flats price is: 700/- Rs");
-			                Footwear_total_price += 700;
-			            }
-			            case "running shoes" -> {
-			                System.out.println("Running Shoes price is: 1600/- Rs");
-			                Footwear_total_price += 1600;
-			            }
-			            case "Walking shoes" -> {
-			                System.out.println("Walking Shoes price is: 1000/- Rs");
-			                Footwear_total_price += 1000;
-			            }
-			            case "Crocs" -> {
-			                System.out.println("Crocs price is: 900/- Rs");
-			                Footwear_total_price += 900;
-			            }
-			            case "School shoes" -> {
-			                System.out.println("School Shoes price is: 800/- Rs");
-			                Footwear_total_price += 800;
-			            }
-			            default -> System.out.println("Product not available!");
-			        }
+					switch (Footwear_product) {
+					case "Shoes" -> {
+						System.out.println("Shoes price is: 950/- Rs");
+						Footwear_total_price += 950;
+					}
+					case "Sneakers" -> {
+						System.out.println("Sneakers price is: 1500/- Rs");
+						Footwear_total_price += 1500;
+					}
+					case "Sandals" -> {
+						System.out.println("Sandals price is: 600/- Rs");
+						Footwear_total_price += 600;
+					}
+					case "Slippers" -> {
+						System.out.println("Slippers price is: 250/- Rs");
+						Footwear_total_price += 250;
+					}
+					case "Flip flops" -> {
+						System.out.println("Flip Flops price is: 200/- Rs");
+						Footwear_total_price += 200;
+					}
+					case "Boots" -> {
+						System.out.println("Boots price is: 2200/- Rs");
+						Footwear_total_price += 2200;
+					}
+					case "Sports shoes" -> {
+						System.out.println("Sports Shoes price is: 1800/- Rs");
+						Footwear_total_price += 1800;
+					}
+					case "Formal shoes" -> {
+						System.out.println("Formal Shoes price is: 1200/- Rs");
+						Footwear_total_price += 1200;
+					}
+					case "Loafers" -> {
+						System.out.println("Loafers price is: 1300/- Rs");
+						Footwear_total_price += 1300;
+					}
+					case "Heels" -> {
+						System.out.println("Heels price is: 1100/- Rs");
+						Footwear_total_price += 1100;
+					}
+					case "Flats" -> {
+						System.out.println("Flats price is: 700/- Rs");
+						Footwear_total_price += 700;
+					}
+					case "running shoes" -> {
+						System.out.println("Running Shoes price is: 1600/- Rs");
+						Footwear_total_price += 1600;
+					}
+					case "Walking shoes" -> {
+						System.out.println("Walking Shoes price is: 1000/- Rs");
+						Footwear_total_price += 1000;
+					}
+					case "Crocs" -> {
+						System.out.println("Crocs price is: 900/- Rs");
+						Footwear_total_price += 900;
+					}
+					case "School shoes" -> {
+						System.out.println("School Shoes price is: 800/- Rs");
+						Footwear_total_price += 800;
+					}
+					default -> System.out.println("Product not available!");
+					}
 
-			        System.out.println("Do you want to add more footwear? (yes/no)");
-			        nvyn = sc.next();
+					System.out.println("Do you want to add more footwear? (yes/no)");
+					nvyn = sc.next();
 
-			    } while (nvyn.equals("y"));
+				} while (nvyn.equals("y"));
 
-			    System.out.println("Footwear total price is: " 
-			            + Footwear_total_price + "/- Rs");
+				System.out.println("Footwear total price is: " + Footwear_total_price + "/- Rs");
 			}
 			default -> System.out.println("Invalid category. Please enter 1 or 2.");
 			}
 
 			System.out.println("\nDo you want to continue shopping? Y/N");
-			product= sc.nextLine();
+			product = sc.nextLine();
 
 		} while (product.equalsIgnoreCase("y"));
 
